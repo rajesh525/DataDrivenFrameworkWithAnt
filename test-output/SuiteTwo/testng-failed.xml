@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTwo]">
+  <parameter name="browser" value="chrome"/>
+  <test name="SuiteTwoCaseOne(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.ddfa.testCases.TC_LoginDDT_002">
+        <methods>
+          <include name="tearDown"/>
+          <include name="loginDDT" invocation-numbers="0 1 2 3 4"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.ddfa.testCases.TC_LoginDDT_002 -->
+    </classes>
+  </test> <!-- SuiteTwoCaseOne(failed) -->
+</suite> <!-- Failed suite [SuiteTwo] -->
